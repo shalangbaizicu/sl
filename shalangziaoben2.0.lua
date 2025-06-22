@@ -1,6 +1,6 @@
 local IMAGE = "rbxassetid://16060333448"
 local Positions = UDim2.new(0.822025776, 0, 0.0401606411, 0)
-local Sizes = UDim2.new(0, 73, 0, 73)
+local Sizes = UDim2.new(0, 76, 0, 70)
 
 local KINGHUBMOBILE = Instance.new("ScreenGui")
 local _100x100 = Instance.new("Frame")
@@ -44,16 +44,16 @@ local Tab3 = win:Tab("其他")
 local Tab4 = win:Tab("ESP")
 local Tab5 = win:Tab("")
 
-Tab:Label("作者krX")
-Tab:Label("作者qq3648447529")
-Tab:Label("落叶工作室")
+Tab:Label("作者:砂狼白子")
+Tab:Label("作者qq")
+Tab:Label("白子工作室")
 Tab:Label("免费")
 Tab:Label("请勿倒卖")
 Tab:Button("复制作者QQ", function()
-    setclipboard("3648447529")
+    setclipboard("1536618983")
 end)
 Tab:Button("复制QQ群", function()
-    setclipboard("341063007")
+    setclipboard("1044059093")
 end)
 
 Tab1:Button("飞行v3",function()
@@ -116,7 +116,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/yPhwFHy4"))()
 end)
 
 Tab2:Button("",function()
-
+loadstring(game:HttpGet("https://pastebin.com/raw/bzmhRgKL"))();
 end)
 
 Tab2:Button("",function()
